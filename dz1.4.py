@@ -1,0 +1,10 @@
+f = open('input.txt')
+f2 = open('output.txt', 'w')
+a1 = f.readline()
+a2 = f.readline()
+a1 = a1.replace(' ', a2)
+f2.write(str(eval(a1)))
+
+#print(eval(a1))
+f.close()
+f2.close()
