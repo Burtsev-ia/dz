@@ -1,0 +1,10 @@
+1. в 'Односвязный список.py' функция element_in_list
+2. в 'Двусвязный список.py' функция reverse_traverse_list
+3. в 'Односвязный список.py' функция ai_an
+4. в 'Двусвязный список.py' функция delete_element_by_value
+5. в 'Двусвязный список.py' функция a1_an
+6.
+
+1. в 'heap.py' функция is_mirror
+4. в 'heap.py' функция mirror
+5. в 'heap.py' функция predki
