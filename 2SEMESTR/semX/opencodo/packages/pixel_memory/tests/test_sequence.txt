@@ -1,0 +1,402 @@
+======================================================================
+FACT AND QUERY SEQUENCE (In order of execution)
+======================================================================
+
+Total facts: 127
+Total queries: 127
+Memory capacity: 10 items
+
+FACT BREAKDOWN:
+  - Owner facts: 15
+  - Trivia facts: 10
+  - Random/Dog facts: 5
+
+QUERY PLACEMENT:
+  - First query for each fact: right after fact (early)
+  - Subsequent queries: delayed, appear later in sequence
+
+----------------------------------------------------------------------
+SEQUENCE:
+----------------------------------------------------------------------
+
+  1. FACT   : My owner lives in New York City
+  2. QUERY  : Where does my owner live?
+       ANSWER: My owner lives in New York City
+  3. FACT   : Rain comes from clouds
+  4. QUERY  : Where does rain come from?
+       ANSWER: Rain comes from clouds
+  5. FACT   : My favorite toy is a squeaky ball
+  6. QUERY  : What is my favorite toy?
+       ANSWER: My favorite toy is a squeaky ball
+  7. FACT   : Fish live in water
+  8. QUERY  : Where do fish live?
+       ANSWER: Fish live in water
+  9. FACT   : Water freezes at zero degrees
+ 10. QUERY  : At what temperature does water freeze?
+       ANSWER: Water freezes at zero degrees
+ 11. FACT   : My owner loves reading mystery novels
+ 12. QUERY  : What does my owner like to read?
+       ANSWER: My owner loves reading mystery novels
+ 13. FACT   : Dogs are mammals
+ 14. QUERY  : What are dogs?
+       ANSWER: Dogs are mammals
+ 15. FACT   : My favorite toy is a squeaky ball
+ 16. FACT   : My favorite toy is a squeaky ball
+ 17. FACT   : I enjoy walks in the park
+ 18. QUERY  : Where do I enjoy walks?
+       ANSWER: I enjoy walks in the park
+ 19. FACT   : Water freezes at zero degrees
+ 20. FACT   : My owner drives a blue Honda
+ 21. QUERY  : What car does my owner drive?
+       ANSWER: My owner drives a blue Honda
+ 22. FACT   : My owner speaks three languages
+ 23. QUERY  : How many languages does my owner speak?
+       ANSWER: My owner speaks three languages
+ 24. FACT   : The Earth orbits the sun
+ 25. QUERY  : What does the Earth orbit?
+       ANSWER: The Earth orbits the sun
+ 26. FACT   : My owner favorite holiday is Christmas
+ 27. QUERY  : What is my owner's favorite holiday?
+       ANSWER: My owner favorite holiday is Christmas
+ 28. FACT   : Water freezes at zero degrees
+ 29. FACT   : Dogs are mammals
+ 30. FACT   : I enjoy walks in the park
+ 31. FACT   : My fur is golden and white
+ 32. QUERY  : What color is my fur?
+       ANSWER: My fur is golden and white
+ 33. FACT   : My owner loves reading mystery novels
+ 34. FACT   : Birds can fly
+ 35. QUERY  : Can birds fly?
+       ANSWER: Birds can fly
+ 36. FACT   : My favorite food is pizza
+ 37. QUERY  : What is my owner's favorite food?
+       ANSWER: My favorite food is pizza
+ 38. FACT   : The moon orbits the Earth
+ 39. QUERY  : What does the moon orbit?
+       ANSWER: The moon orbits the Earth
+ 40. FACT   : Fish live in water
+ 41. FACT   : My owner adopted me from a shelter
+ 42. QUERY  : Where did my owner adopt me from?
+       ANSWER: My owner adopted me from a shelter
+ 43. FACT   : The Earth orbits the sun
+ 44. FACT   : My owner birthday is March 15th
+ 45. QUERY  : When is my owner's birthday?
+       ANSWER: My owner birthday is March 15th
+ 46. FACT   : My owner name is Sarah
+ 47. QUERY  : What is my owner name?
+       ANSWER: My owner name is Sarah
+ 48. FACT   : My fur is golden and white
+ 49. FACT   : Fish live in water
+ 50. FACT   : My owner favorite season is autumn
+ 51. QUERY  : What is my owner's favorite season?
+       ANSWER: My owner favorite season is autumn
+ 52. FACT   : I love chasing butterflies
+ 53. QUERY  : What do I love chasing?
+       ANSWER: I love chasing butterflies
+ 54. FACT   : The sun is a star
+ 55. QUERY  : What is the sun?
+       ANSWER: The sun is a star
+ 56. FACT   : Birds can fly
+ 57. FACT   : Rain comes from clouds
+ 58. FACT   : The sun is a star
+ 59. FACT   : My owner is allergic to peanuts
+ 60. QUERY  : What is my owner allergic to?
+       ANSWER: My owner is allergic to peanuts
+ 61. FACT   : Birds can fly
+ 62. FACT   : My owner favorite holiday is Christmas
+ 63. FACT   : Cats have four legs
+ 64. QUERY  : How many legs do cats have?
+       ANSWER: Cats have four legs
+ 65. FACT   : Dogs are mammals
+ 66. FACT   : My owner adopted me from a shelter
+ 67. FACT   : I sleep on a soft dog bed
+ 68. QUERY  : Where do I sleep?
+       ANSWER: I sleep on a soft dog bed
+ 69. FACT   : My owner is allergic to peanuts
+ 70. FACT   : I love chasing butterflies
+ 71. FACT   : My favorite toy is a squeaky ball
+ 72. FACT   : The sun is a star
+ 73. FACT   : My owner is allergic to peanuts
+ 74. FACT   : The Earth orbits the sun
+ 75. FACT   : My owner plays guitar on weekends
+ 76. QUERY  : What does my owner do on weekends?
+       ANSWER: My owner plays guitar on weekends
+ 77. FACT   : Cats have four legs
+ 78. FACT   : The moon orbits the Earth
+ 79. QUERY  : What is my owner allergic to?
+       ANSWER: My owner is allergic to peanuts
+ 80. FACT   : My owner plays guitar on weekends
+ 81. FACT   : I love chasing butterflies
+ 82. QUERY  : What does my owner do for work?
+       ANSWER: My owner works as a doctor
+ 83. FACT   : My owner is allergic to peanuts
+ 84. QUERY  : Where do I sleep?
+       ANSWER: I sleep on a soft dog bed
+ 85. FACT   : My favorite toy is a squeaky ball
+ 86. QUERY  : What is the sun?
+       ANSWER: The sun is a star
+ 87. FACT   : My fur is golden and white
+ 88. QUERY  : Where do fish live?
+       ANSWER: Fish live in water
+ 89. FACT   : The moon orbits the Earth
+ 90. FACT   : My owner birthday is March 15th
+ 91. QUERY  : Where did my owner adopt me from?
+       ANSWER: My owner adopted me from a shelter
+ 92. FACT   : Cats have four legs
+ 93. QUERY  : What does the Earth orbit?
+       ANSWER: The Earth orbits the sun
+ 94. FACT   : I enjoy walks in the park
+ 95. FACT   : Rain comes from clouds
+ 96. QUERY  : What does my owner like to read?
+       ANSWER: My owner loves reading mystery novels
+ 97. FACT   : Dogs are mammals
+ 98. FACT   : I love chasing butterflies
+ 99. QUERY  : How many legs do cats have?
+       ANSWER: Cats have four legs
+100. FACT   : My favorite toy is a squeaky ball
+101. QUERY  : What is the sun?
+       ANSWER: The sun is a star
+102. FACT   : Rain comes from clouds
+103. QUERY  : Can birds fly?
+       ANSWER: Birds can fly
+104. FACT   : My owner lives in New York City
+105. QUERY  : What color is the sky?
+       ANSWER: The sky is blue
+106. FACT   : My owner plays guitar on weekends
+107. QUERY  : What does the moon orbit?
+       ANSWER: The moon orbits the Earth
+108. FACT   : The sky is blue
+109. QUERY  : What are dogs?
+       ANSWER: Dogs are mammals
+110. QUERY  : What color is the sky?
+       ANSWER: The sky is blue
+111. QUERY  : How many legs do cats have?
+       ANSWER: Cats have four legs
+112. FACT   : My owner adopted me from a shelter
+113. QUERY  : Where do I enjoy walks?
+       ANSWER: I enjoy walks in the park
+114. FACT   : My owner favorite color is purple
+115. QUERY  : What is my owner's favorite color?
+       ANSWER: My owner favorite color is purple
+116. FACT   : Fish live in water
+117. FACT   : My owner has a cat named Whiskers
+118. QUERY  : What is my favorite toy?
+       ANSWER: My favorite toy is a squeaky ball
+119. QUERY  : What is my owner's pet's name?
+       ANSWER: My owner has a cat named Whiskers
+120. FACT   : The moon orbits the Earth
+121. QUERY  : What color is the sky?
+       ANSWER: The sky is blue
+122. FACT   : The sun is a star
+123. FACT   : My owner works as a doctor
+124. QUERY  : Where do I sleep?
+       ANSWER: I sleep on a soft dog bed
+125. QUERY  : What does my owner do for work?
+       ANSWER: My owner works as a doctor
+126. QUERY  : Where did my owner adopt me from?
+       ANSWER: My owner adopted me from a shelter
+127. FACT   : My owner favorite holiday is Christmas
+128. QUERY  : What is my owner's favorite season?
+       ANSWER: My owner favorite season is autumn
+129. FACT   : The sky is blue
+130. QUERY  : Where does rain come from?
+       ANSWER: Rain comes from clouds
+131. FACT   : The sky is blue
+132. QUERY  : What is my owner's favorite color?
+       ANSWER: My owner favorite color is purple
+133. FACT   : My owner favorite color is purple
+134. FACT   : Water freezes at zero degrees
+135. QUERY  : Where do fish live?
+       ANSWER: Fish live in water
+136. FACT   : I sleep on a soft dog bed
+137. QUERY  : What does my owner do on weekends?
+       ANSWER: My owner plays guitar on weekends
+138. FACT   : My fur is golden and white
+139. QUERY  : Where do I enjoy walks?
+       ANSWER: I enjoy walks in the park
+140. FACT   : The Earth orbits the sun
+141. QUERY  : Where does rain come from?
+       ANSWER: Rain comes from clouds
+142. FACT   : I sleep on a soft dog bed
+143. FACT   : My owner drives a blue Honda
+144. QUERY  : How many languages does my owner speak?
+       ANSWER: My owner speaks three languages
+145. FACT   : I love chasing butterflies
+146. QUERY  : What is my owner allergic to?
+       ANSWER: My owner is allergic to peanuts
+147. FACT   : The sky is blue
+148. FACT   : I sleep on a soft dog bed
+149. QUERY  : What do I love chasing?
+       ANSWER: I love chasing butterflies
+150. FACT   : My owner drives a blue Honda
+151. QUERY  : What color is my fur?
+       ANSWER: My fur is golden and white
+152. FACT   : My owner name is Sarah
+153. FACT   : I enjoy walks in the park
+154. QUERY  : What is my owner's favorite food?
+       ANSWER: My favorite food is pizza
+155. FACT   : I sleep on a soft dog bed
+156. QUERY  : What car does my owner drive?
+       ANSWER: My owner drives a blue Honda
+157. FACT   : The sun is a star
+158. QUERY  : When is my owner's birthday?
+       ANSWER: My owner birthday is March 15th
+159. FACT   : I enjoy walks in the park
+160. QUERY  : What do I love chasing?
+       ANSWER: I love chasing butterflies
+161. FACT   : Cats have four legs
+162. QUERY  : What are dogs?
+       ANSWER: Dogs are mammals
+163. FACT   : My fur is golden and white
+164. QUERY  : What is my owner name?
+       ANSWER: My owner name is Sarah
+165. FACT   : Rain comes from clouds
+166. QUERY  : At what temperature does water freeze?
+       ANSWER: Water freezes at zero degrees
+167. FACT   : The Earth orbits the sun
+168. QUERY  : What color is my fur?
+       ANSWER: My fur is golden and white
+169. FACT   : Rain comes from clouds
+170. QUERY  : What does the moon orbit?
+       ANSWER: The moon orbits the Earth
+171. FACT   : My owner favorite season is autumn
+172. FACT   : Birds can fly
+173. FACT   : I sleep on a soft dog bed
+174. QUERY  : What does the Earth orbit?
+       ANSWER: The Earth orbits the sun
+175. FACT   : Fish live in water
+176. QUERY  : At what temperature does water freeze?
+       ANSWER: Water freezes at zero degrees
+177. FACT   : Dogs are mammals
+178. FACT   : My owner speaks three languages
+179. QUERY  : Where does my owner live?
+       ANSWER: My owner lives in New York City
+180. FACT   : My owner favorite season is autumn
+181. FACT   : I sleep on a soft dog bed
+182. QUERY  : What is my owner's favorite holiday?
+       ANSWER: My owner favorite holiday is Christmas
+183. FACT   : I enjoy walks in the park
+184. FACT   : My owner works as a doctor
+185. QUERY  : What is my owner's pet's name?
+       ANSWER: My owner has a cat named Whiskers
+186. FACT   : Cats have four legs
+187. QUERY  : What is my favorite toy?
+       ANSWER: My favorite toy is a squeaky ball
+188. FACT   : Birds can fly
+189. FACT   : My owner favorite color is purple
+190. QUERY  : Can birds fly?
+       ANSWER: Birds can fly
+191. FACT   : The moon orbits the Earth
+192. FACT   : My fur is golden and white
+193. QUERY  : What is my owner's favorite holiday?
+       ANSWER: My owner favorite holiday is Christmas
+194. FACT   : My fur is golden and white
+195. FACT   : The Earth orbits the sun
+196. FACT   : My owner has a cat named Whiskers
+197. FACT   : I enjoy walks in the park
+198. FACT   : My owner loves reading mystery novels
+199. FACT   : My owner speaks three languages
+200. FACT   : My owner favorite holiday is Christmas
+201. FACT   : My owner adopted me from a shelter
+202. FACT   : I love chasing butterflies
+203. FACT   : My favorite food is pizza
+204. FACT   : My owner has a cat named Whiskers
+205. FACT   : Fish live in water
+206. QUERY  : What is my owner's favorite color?
+       ANSWER: My owner favorite color is purple
+207. QUERY  : What is my owner's pet's name?
+       ANSWER: My owner has a cat named Whiskers
+208. QUERY  : What does my owner like to read?
+       ANSWER: My owner loves reading mystery novels
+209. QUERY  : What car does my owner drive?
+       ANSWER: My owner drives a blue Honda
+210. QUERY  : What does my owner do on weekends?
+       ANSWER: My owner plays guitar on weekends
+211. QUERY  : What is my owner's favorite season?
+       ANSWER: My owner favorite season is autumn
+212. QUERY  : How many languages does my owner speak?
+       ANSWER: My owner speaks three languages
+213. QUERY  : What is my owner's favorite holiday?
+       ANSWER: My owner favorite holiday is Christmas
+214. QUERY  : Where did my owner adopt me from?
+       ANSWER: My owner adopted me from a shelter
+215. QUERY  : What is my owner allergic to?
+       ANSWER: My owner is allergic to peanuts
+216. QUERY  : What color is the sky?
+       ANSWER: The sky is blue
+217. QUERY  : At what temperature does water freeze?
+       ANSWER: Water freezes at zero degrees
+218. QUERY  : How many legs do cats have?
+       ANSWER: Cats have four legs
+219. QUERY  : How many legs do cats have?
+       ANSWER: Cats have four legs
+220. QUERY  : What is the sun?
+       ANSWER: The sun is a star
+221. QUERY  : What is the sun?
+       ANSWER: The sun is a star
+222. QUERY  : What are dogs?
+       ANSWER: Dogs are mammals
+223. QUERY  : What are dogs?
+       ANSWER: Dogs are mammals
+224. QUERY  : What does the moon orbit?
+       ANSWER: The moon orbits the Earth
+225. QUERY  : What does the moon orbit?
+       ANSWER: The moon orbits the Earth
+226. QUERY  : Can birds fly?
+       ANSWER: Birds can fly
+227. QUERY  : Can birds fly?
+       ANSWER: Birds can fly
+228. QUERY  : Where do fish live?
+       ANSWER: Fish live in water
+229. QUERY  : Where do fish live?
+       ANSWER: Fish live in water
+230. QUERY  : Where do fish live?
+       ANSWER: Fish live in water
+231. QUERY  : What does the Earth orbit?
+       ANSWER: The Earth orbits the sun
+232. QUERY  : What does the Earth orbit?
+       ANSWER: The Earth orbits the sun
+233. QUERY  : What does the Earth orbit?
+       ANSWER: The Earth orbits the sun
+234. QUERY  : Where does rain come from?
+       ANSWER: Rain comes from clouds
+235. QUERY  : Where does rain come from?
+       ANSWER: Rain comes from clouds
+236. QUERY  : Where does rain come from?
+       ANSWER: Rain comes from clouds
+237. QUERY  : What do I love chasing?
+       ANSWER: I love chasing butterflies
+238. QUERY  : What do I love chasing?
+       ANSWER: I love chasing butterflies
+239. QUERY  : What do I love chasing?
+       ANSWER: I love chasing butterflies
+240. QUERY  : What is my favorite toy?
+       ANSWER: My favorite toy is a squeaky ball
+241. QUERY  : What is my favorite toy?
+       ANSWER: My favorite toy is a squeaky ball
+242. QUERY  : What is my favorite toy?
+       ANSWER: My favorite toy is a squeaky ball
+243. QUERY  : Where do I sleep?
+       ANSWER: I sleep on a soft dog bed
+244. QUERY  : Where do I sleep?
+       ANSWER: I sleep on a soft dog bed
+245. QUERY  : Where do I sleep?
+       ANSWER: I sleep on a soft dog bed
+246. QUERY  : Where do I sleep?
+       ANSWER: I sleep on a soft dog bed
+247. QUERY  : What color is my fur?
+       ANSWER: My fur is golden and white
+248. QUERY  : What color is my fur?
+       ANSWER: My fur is golden and white
+249. QUERY  : What color is my fur?
+       ANSWER: My fur is golden and white
+250. QUERY  : What color is my fur?
+       ANSWER: My fur is golden and white
+251. QUERY  : Where do I enjoy walks?
+       ANSWER: I enjoy walks in the park
+252. QUERY  : Where do I enjoy walks?
+       ANSWER: I enjoy walks in the park
+253. QUERY  : Where do I enjoy walks?
+       ANSWER: I enjoy walks in the park
+254. QUERY  : Where do I enjoy walks?
+       ANSWER: I enjoy walks in the park
